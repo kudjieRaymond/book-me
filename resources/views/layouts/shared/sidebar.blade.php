@@ -29,7 +29,7 @@
 							</li>
 							
 							
-							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{route('home')}}" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
+							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{route('admin.home')}}" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
 							
 							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="" aria-expanded="false"><i class="mdi mdi-file-document-box"></i><span class="hide-menu">Venue</span></a></li>
 							
@@ -39,7 +39,7 @@
 							<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-settings-box"></i><span class="hide-menu">Settings</span></a>
 								<ul aria-expanded="false" class="collapse  first-level">
 								
-								<li class="sidebar-item"><a href="" class="sidebar-link"><i class="mdi mdi-view-quilt"></i><span class="hide-menu">Event type </span></a></li>		
+								<li class="sidebar-item"><a href="{{route('admin.event-types.index')}}" class="sidebar-link"><i class="mdi mdi-view-quilt"></i><span class="hide-menu">Event type </span></a></li>		
 								</ul>
 							</li>
 						
