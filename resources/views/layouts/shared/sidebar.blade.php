@@ -33,7 +33,7 @@
 							
 							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="" aria-expanded="false"><i class="mdi mdi-file-document-box"></i><span class="hide-menu">Venue</span></a></li>
 							
-							<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="" aria-expanded="false"><i class="mdi mdi-file-cloud"></i><span class="hide-menu">Location</span></a></li>
+						<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="{{route('admin.locations.index')}}" aria-expanded="false"><i class="mdi mdi-file-cloud"></i><span class="hide-menu">Location</span></a></li>
 							
 							
 							<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-settings-box"></i><span class="hide-menu">Settings</span></a>

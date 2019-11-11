@@ -60,7 +60,7 @@ class EventTypeController extends Controller
      */
     public function show(EventType $eventType)
     {
-        //
+      return view('admin.event-types.show', compact('eventType'));
     }
 
     /**

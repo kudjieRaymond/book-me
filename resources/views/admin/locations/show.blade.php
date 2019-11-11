@@ -10,8 +10,8 @@
 					<div class="d-flex align-items-center">
 							<nav aria-label="breadcrumb">
 									<ol class="breadcrumb">
-											<li class="breadcrumb-item"><a href="#">Event Types</a></li>
-											<li class="breadcrumb-item active" aria-current="page">Show Event Type</li>
+											<li class="breadcrumb-item"><a href="#">Locations</a></li>
+											<li class="breadcrumb-item active" aria-current="page">Show Location</li>
 									</ol>
 							</nav>
 					</div>
@@ -42,7 +42,7 @@
                                 Name
                             </td>
 													<td>
-                                {{ $eventType->name ?? '' }}
+                                {{ $location->name ?? '' }}
 														</td>
 												</tr>
 												<tr>
@@ -50,15 +50,15 @@
 														Slug
 													</td>
 													 <td>
-                                {{ $eventType->slug ?? '' }}
+                                {{ $location->slug ?? '' }}
                             </td>
 												</tr>
-                        
+                       
                         
 												<tr>
 													<td>Photo</td>
 													<td>
-                                <img src="{{ $eventType->photo->thumbnail ?? '' }}" alt="location photo">
+                                <img src="{{ $location->photo->thumbnail ?? '' }}" alt="location photo">
                             </td>
 												</tr>    
                         
@@ -71,8 +71,6 @@
 			</div>
 		
 	</div>
-	<!-- ============================================================== -->
-
 	<!-- ============================================================== -->
 
 </div>

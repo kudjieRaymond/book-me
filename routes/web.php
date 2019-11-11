@@ -24,5 +24,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
 	
 	Route::get('/', 'HomeController@index')->name('home');
 	Route::resource('/event-types', 'EventTypeController');
-	
+	Route::resource('/locations', 'LocationController');
+
 });
